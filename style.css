@@ -1,0 +1,93 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,400;0,700;1,400&display=swap');
+
+body {
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+    height: 100vh;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+ul {
+    margin: 0;
+    padding: 0;
+    font-size: inherit;
+    font-weight: inherit;
+}
+
+h1 {
+    font-size: 48px;
+    font-weight: 900;
+}
+
+h2 {
+    font-size: 36px;
+}
+
+h3 {
+    font-size: 24px;
+}
+
+h4 {
+    font-size: 18px;
+    color: #E5E7EB;
+}
+
+h1,
+h3 {
+    color: #F9FAF8;
+}
+
+.header,
+.hero-section {
+    padding: 10px 10%;
+    background-color: #1F2937;
+    display: flex;
+
+}
+
+ul,
+a {
+    list-style-type: none;
+    text-decoration: none;
+    color: inherit;
+}
+
+.header {
+    justify-content: space-between;
+}
+
+.header ul {
+    display: flex;
+    gap: 24px;
+}
+
+.hero-section {
+    padding-top: 48px;
+    padding-bottom: 48px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.hero-text_button {
+    max-width: 450px;
+    display: flex;
+    align-items: flex-start;
+    flex-direction: column;
+    flex-wrap: wrap;
+    gap: 8px;
+}
+
+.hero-section button {
+    font-size: 18px;    
+    border: none;
+    padding: 8px 24px;
+    background-color: #3882F6;
+    color: white;
+    border-radius: 6px;
+}

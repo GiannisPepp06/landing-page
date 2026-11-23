@@ -35,5 +35,3 @@ Design Parameters:
             Color: #1F2937
             Weight: 300
             Font style: italic
-
-
